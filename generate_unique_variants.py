@@ -87,9 +87,9 @@ if __name__ == "__main__":
     
     # Homepage Uniques
     process_variant(hero_base, os.path.join(project_img_dir, "cta-bg.webp"), 'darken', 'center')
-    process_variant(inline2_base, os.path.join(project_img_dir, "project-driveway.webp"), 'flip_lr', 'center')
-    process_variant(stamped_base, os.path.join(project_img_dir, "project-patio.webp"), 'flip_tb', 'center')
-    process_variant(hero_base, os.path.join(project_img_dir, "project-repair.webp"), 'flip_tb', 'left')
-    process_variant(inline1_base, os.path.join(project_img_dir, "project-waterproofing.webp"), 'darken', 'right')
+    process_variant(inline2_base, os.path.join(project_img_dir, "project-driveway.webp"), 'none', 'right')
+    process_variant(stamped_base, os.path.join(project_img_dir, "project-patio.webp"), 'none', 'left')
+    process_variant(hero_base, os.path.join(project_img_dir, "project-repair.webp"), 'none', 'right')
+    process_variant(inline1_base, os.path.join(project_img_dir, "project-waterproofing.webp"), 'none', 'left')
     
     print("Done generating unique image variants!")
