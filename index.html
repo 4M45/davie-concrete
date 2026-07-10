@@ -112,7 +112,8 @@
                         <input type="text" name="name" class="form-control" placeholder="Full Name *" style="margin-bottom:15px;" required>
                         <input type="tel" name="phone" class="form-control" placeholder="Phone *" style="margin-bottom:15px;" required>
                         <input type="email" name="email" class="form-control" placeholder="Email *" style="margin-bottom:15px;" required>
-                        <select name="service" aria-label="What Do You Need?" class="form-control" style="margin-bottom:15px; background-color:rgba(255,255,255,0.9);" required>
+                        <label for="service-select" class="sr-only">Service Needed</label>
+                        <select id="service-select" name="service" aria-label="What Do You Need?" class="form-control" style="margin-bottom:15px; background-color:rgba(255,255,255,0.9);" required>
                             <option value="" disabled selected>What Do You Need?</option>
                             <option value="driveways">Concrete Driveways</option>
                             <option value="patios">Concrete Patios</option>
