@@ -100,10 +100,28 @@
     <main>
         <!-- Hero Section -->
         <section class="hero" style="background-image: url('images/stock-hero.webp');">
-            <div class="container">
-                <h1>WELCOME TO DAVIE CONCRETE SERVICES.</h1>
-                <p>Premium concrete paving, driveways, and restoration services in Davie, FL. We build with strength and style.</p>
-                <a href="#services" class="btn">Discover More</a>
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h1>WELCOME TO DAVIE CONCRETE SERVICES.</h1>
+                    <p>Premium concrete paving, driveways, and restoration services in Davie, FL. We build with strength and style.</p>
+                    <a href="#services" class="btn">Discover More</a>
+                </div>
+                <div class="hero-form-card">
+                    <h3 style="color:var(--color-primary); margin-bottom: 20px; font-size:1.5rem; text-align:center;">GET A FREE QUOTE</h3>
+                    <form name="Hero-Contact" method="POST" data-netlify="true">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name *" style="margin-bottom:15px;" required>
+                        <input type="tel" name="phone" class="form-control" placeholder="Phone *" style="margin-bottom:15px;" required>
+                        <input type="email" name="email" class="form-control" placeholder="Email *" style="margin-bottom:15px;" required>
+                        <select name="service" class="form-control" style="margin-bottom:15px; background-color:rgba(255,255,255,0.9);" required>
+                            <option value="" disabled selected>What Do You Need?</option>
+                            <option value="driveways">Concrete Driveways</option>
+                            <option value="patios">Concrete Patios</option>
+                            <option value="stamped">Stamped Concrete</option>
+                            <option value="repair">Concrete Repair</option>
+                        </select>
+                        <button type="submit" class="btn" style="width:100%;">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
 
@@ -151,13 +169,13 @@
                     </div>
                     
                     <div class="service-list">
-                        <div class="service-list-item">Paving & Driveways</div>
-                        <div class="service-list-item">Concrete Repair & Leveling</div>
-                        <div class="service-list-item">Ready Mix Concrete</div>
-                        <div class="service-list-item">Mudjacking</div>
-                        <div class="service-list-item">Foundation Waterproofing</div>
-                        <div class="service-list-item">Stamped Concrete</div>
-                        <div class="service-list-item">Concrete Polishing</div>
+                        <a href="service-driveways.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Concrete Driveways</a>
+                        <a href="service-patios.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Concrete Patios</a>
+                        <a href="service-sidewalks.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Concrete Sidewalks</a>
+                        <a href="service-floors.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Concrete Floors</a>
+                        <a href="service-stamped.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Stamped Concrete</a>
+                        <a href="service-decorative.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Decorative Concrete</a>
+                        <a href="service-leveling.html" class="service-list-item" style="display:block; text-decoration:none; color:inherit;">Concrete Leveling</a>
                     </div>
                 </div>
             </div>

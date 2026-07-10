@@ -608,3 +608,27 @@ textarea.form-control {
         grid-template-columns: 1fr;
     }
 }
+
+/* Hero Grid Form Additions */
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+.hero-text {
+    max-width: 600px;
+}
+.hero-form-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    border-top: 5px solid var(--color-primary);
+}
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+}
