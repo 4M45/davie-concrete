@@ -631,4 +631,13 @@ textarea.form-control {
     .hero-grid {
         grid-template-columns: 1fr;
     }
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding-top: 160px;
+        padding-bottom: 60px;
+    }
+    .hero-form-card {
+        margin-top: 30px;
+    }
 }
